@@ -1,0 +1,5 @@
+ffmpeg -i input.mp4 -r 10 output%05d.png
+Then using imagemagick's convert tool insert each frame into an animated gif:
+
+
+convert output*.png output.gif
