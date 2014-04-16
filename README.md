@@ -26,16 +26,12 @@ If you type the following, you should get some content assist for the relevant m
 someA.
 ```
 
-<Pertinent gif>
+![Standard Content Assist][resources/old-ca.gif]
 
 This is cool - but wouldn't it be *better* if we could get content assist that felt more... intelligent? Well, the great news is that we can!
 Under Windows --> Preferences --> Java --> Editor --> Content Assist
 
-<insert relevant image>
-
-There is three key fields:
-
-<second image>
+![Content Assist Settings][resources/ca.png]
 
 They key parts are:
 
@@ -50,12 +46,15 @@ so
 
 Content assist will offer some sugestions - like someA. If it's the only suggestion, typing "." will auto-complete the variable for us - neat!
 
-<some kind of demo gif>
+This now enables us to have some really cool camel-case completion of methods as well. Typing:
 
-This now enables us to have some really cool camel-case completion of methods as well. If I type:
 ```java
-someA.
+someA.dT
 ```
+
+The suggestion doThing will automatically appear. Typing ';' will then autocomplete that line. Awesome.
+
+![New Content Assist][resources/new-ca.gif]
 
 ## Favourites
 
