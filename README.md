@@ -26,12 +26,12 @@ If you type the following, you should get some content assist for the relevant m
 someA.
 ```
 
-![Standard Content Assist][resources/old-ca.gif]
+![Standard Content Assist](resources/old-ca.gif)
 
 This is cool - but wouldn't it be *better* if we could get content assist that felt more... intelligent? Well, the great news is that we can!
 Under Windows --> Preferences --> Java --> Editor --> Content Assist
 
-![Content Assist Settings][resources/ca.png]
+![Content Assist Settings](resources/ca.png)
 
 They key parts are:
 
@@ -54,7 +54,7 @@ someA.dT
 
 The suggestion doThing will automatically appear. Typing ';' will then autocomplete that line. Awesome.
 
-![New Content Assist][resources/new-ca.gif]
+![New Content Assist](resources/new-ca.gif)
 
 ## Favourites
 
