@@ -58,4 +58,28 @@ The suggestion doThing will automatically appear. Typing ';' will then autocompl
 
 ## Favourites
 
+Normally, you'd be working away, and need to do something like, compare Strings, ignoring case, such as:
+
+```java
+String str1 = "A";
+String str2 = "a";
+StringUtils.equalsIgnoreCase(str1, str2);
+```
+
+Simple enough - but what if you'd forgotten the name of the library with the equalsIgnoreCase method? Or worse yet, what if there were multple StringUtils....
+
+![Everyone needs their own](resources/ms.png)
+
+Favourites are a nifty feature which make it easier to use your favourite libraries, like StringUtils. It can be found under: Window --> Preferences --> Java --> Editor --> Content Assist --> Favourites
+
+![Favourites](resources/fa.png)
+
+From the side, you can add your own Types to the list, by clicking **New Type...**. In this example, we'll add the ever favourite StringUtils.
+
+![Types](resources/types.png)
+
+With this in the list, the next time you need to equalsIgnoreCase, you can simply begin typing, and it will be presented as an option. When you select it, it will be added as a static import if it's not already present. Awesome!
+
+![Example of Static Favourites](resources/import.gif)
+
 ## Templates
