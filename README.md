@@ -94,3 +94,11 @@ public void testName() {
 
 }
 ```
+
+What a pain! Fortunately, we can get around at least part of the pain, and reduce hte number of keypresses to around 2.
+
+Let's create a template. Open up Window --> Preferences --> Java -> Editor --> Templates
+
+![Templates](resources/ta.png)
+
+We'll create a new template to stub this out for us.
