@@ -102,3 +102,17 @@ Let's create a template. Open up Window --> Preferences --> Java -> Editor --> T
 ![Templates](resources/ta.png)
 
 We'll create a new template to stub this out for us.
+```java
+@${testType:newType(org.junit.Test)}
+public void ${testName}() {
+	${staticImport:importStatic('org.junit.Assert.*')}${cursor} 
+}
+```
+
+Now, when we add this template with the name "tt", like:
+
+![Templates Example](resources/tt.png)
+
+We'll get a nice autocomplete for the Test:
+
+![Template Animation](resources/ta-anim.gif)
