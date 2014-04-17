@@ -115,4 +115,4 @@ Now, when we add this template with the name "tt", like:
 
 We'll get a nice autocomplete for the Test:
 
-![Template Animation](resources/ta-anim.gif)
+![Template Animation](resources/tt-anim.gif)
