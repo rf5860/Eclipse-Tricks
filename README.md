@@ -83,3 +83,14 @@ With this in the list, the next time you need to equalsIgnoreCase, you can simpl
 ![Example of Static Favourites](resources/import.gif)
 
 ## Templates
+
+Templates provide a quick and powerful way to get rid of a lot of the annoying boilerplate that you need to write. One of the most basic examples, is when you need to write a basic test stub.
+
+```java
+import org.junit.Test;
+// Heap of stuff..
+@Test
+public void testName() {
+
+}
+```
